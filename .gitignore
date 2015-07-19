@@ -19,3 +19,10 @@
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
+
+# Ignore Lunar package
+/Assets/Plugins.meta
+/Assets/Plugins/Lunar
+/Assets/Plugins/Lunar.meta
+/Assets/Editor/Lunar
+/Assets/Editor/Lunar.meta
