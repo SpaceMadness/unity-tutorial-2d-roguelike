@@ -11,18 +11,22 @@ Open project in Unity Editor and import [Lunar plugin](https://goo.gl/xo5IIf) fr
 ## Commands
 
 **Days management:**  
-* `day`: starts Nth day.
-* `restart`: restarts current day.
-* `prev`: starts prev day.
-* `next`: starts next day.
+* [day](https://github.com/SpaceMadness/unity-tutorial-2d-roguelike/blob/master/Assets/Editor/Commands.cs#L37-L44): starts Nth day.
+* [restart](https://github.com/SpaceMadness/unity-tutorial-2d-roguelike/blob/master/Assets/Editor/Commands.cs#L10-L17): restarts current day.
+* [prev](https://github.com/SpaceMadness/unity-tutorial-2d-roguelike/blob/master/Assets/Editor/Commands.cs#L28-L35): starts prev day.
+* [next](https://github.com/SpaceMadness/unity-tutorial-2d-roguelike/blob/master/Assets/Editor/Commands.cs#L19-L26): starts next day.
   
 **Food management:**  
-* `food`: overrides food amount.
+* [food](https://github.com/SpaceMadness/unity-tutorial-2d-roguelike/blob/master/Assets/Editor/Commands.cs#L50-L65): overrides food amount.  
+   
+For more info check [Commands](https://github.com/SpaceMadness/lunar-unity-plugin/wiki/Commands) user guide.
 
 ## Key Bindings
 `bind [ prev`  
 `bind ] next`  
 `bind r restart`  
+  
+For more info check [Keys Binding](https://github.com/SpaceMadness/lunar-unity-plugin/wiki/Key-Binding) user guide.  
 
 ## More info
 For more info, please, check the official project [tutorial](http://goo.gl/je1cpc).
