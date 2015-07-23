@@ -5,6 +5,8 @@ using Completed;
 
 using LunarPlugin;
 
+#region Days Management
+
 [CCommand("restart", Description="Restarts current day")]
 class Cmd_restart : CPlayModeCommand
 {
@@ -40,3 +42,26 @@ class Cmd_day : CPlayModeCommand
 		GameManager.instance.StartDay(day);
 	}
 }
+
+#endregion
+
+#region Food Management
+
+[CCommand("food")]
+class Cmd_food : CPlayModeCommand
+{
+	bool Execute(int food)
+	{
+		Player player = GameObject.FindObjectOfType<Player>();
+		if (player == null)
+		{
+			PrintError("Player not found");
+			return false;
+		}
+		
+		player.Food = food;
+		return true;
+	}
+}
+
+#endregion
