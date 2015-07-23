@@ -1,6 +1,6 @@
 # 2D roguelike made easy with Lunar
 
-This is Unity 2D Roguelike Tutorial used in Lunar Plugin [presentation](http://www.meetup.com/Seattle-Unity3D/events/224052872/).  
+This is [Unity 2D Roguelike Tutorial](https://unity3d.com/learn/tutorials/projects/2d-roguelike-tutorial) used in Lunar Plugin [presentation](http://www.meetup.com/Seattle-Unity3D/events/224052872/).  
 
 **Requires Lunar v0.0.3b or later**
 
