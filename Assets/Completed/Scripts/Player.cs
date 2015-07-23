@@ -1,5 +1,8 @@
 ﻿using UnityEngine;
+
+using System;
 using System.Collections;
+
 using UnityEngine.UI;	//Allows us to use UI.
 
 namespace Completed
