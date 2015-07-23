@@ -28,5 +28,5 @@ For more info check [Commands](https://github.com/SpaceMadness/lunar-unity-plugi
   
 For more info check [Keys Binding](https://github.com/SpaceMadness/lunar-unity-plugin/wiki/Key-Binding) user guide.  
 
-## More info
+## Project Tutorial
 For more info, please, check the official project [tutorial](http://goo.gl/je1cpc).
