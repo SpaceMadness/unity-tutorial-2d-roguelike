@@ -3,7 +3,7 @@
 This is a 'clean' verison of [Unity 2D Roguelike Tutorial](https://unity3d.com/learn/tutorials/projects/2d-roguelike-tutorial) used in Lunar Plugin [presentation](http://www.meetup.com/Seattle-Unity3D/events/224052872/).  
 For the final result please check [master](https://github.com/SpaceMadness/unity-tutorial-2d-roguelike/tree/master) branch.
 
-**Requires Lunar v0.0.3b or later**
+**Requires Lunar v0.0.4b or later**
 
 ## Installation
 
