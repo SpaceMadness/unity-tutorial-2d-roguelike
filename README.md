@@ -2,7 +2,7 @@
 
 This is a modified version of [Unity 2D Roguelike Tutorial](https://unity3d.com/learn/tutorials/projects/2d-roguelike-tutorial) used in [Lunar](https://github.com/SpaceMadness/lunar-unity-plugin) Plugin [presentation](http://www.meetup.com/Seattle-Unity3D/events/224052872/). Includes custom commands for days and food management.
 
-**Requires Lunar v0.0.3b or later**
+**Requires Lunar v0.0.4b or later**
 
 ## Installation
 
