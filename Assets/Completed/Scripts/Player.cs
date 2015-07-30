@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System;
 using System.Collections;
 using UnityEngine.UI;	//Allows us to use UI.
 
@@ -258,6 +259,21 @@ namespace Completed
 				GameManager.instance.GameOver ();
 			}
 		}
+
+		#region Properties
+
+		public int Food {
+			get { return food; }
+			set {
+				if (food < 0) {
+					throw new ArgumentOutOfRangeException ("food");
+				}
+				food = value;
+				foodText.text = "Food: " + food;
+			}
+		}
+
+		#endregion
 	}
 }
 

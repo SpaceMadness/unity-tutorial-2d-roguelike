@@ -1,4 +1,6 @@
 ﻿using UnityEngine;
+
+using System;
 using System.Collections;
 
 namespace Completed
@@ -167,6 +169,35 @@ namespace Completed
 			//Enemies are done moving, set enemiesMoving to false.
 			enemiesMoving = false;
 		}
+
+		#region Days Management
+
+		public void StartDay (int day)
+		{
+			if (day < 1) {
+				throw new ArgumentOutOfRangeException ("day");
+			}
+			
+			level = day - 1;
+			Application.LoadLevel (Application.loadedLevel); // restart current scene
+		}
+		
+		public void RestartDay ()
+		{
+			StartDay (level);
+		}
+		
+		public void NextDay ()
+		{
+			StartDay (level + 1);
+		}
+		
+		public void PrevDay ()
+		{
+			StartDay (level - 1);
+		}
+
+		#endregion
 	}
 }
 
